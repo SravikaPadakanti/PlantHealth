@@ -20,6 +20,36 @@ A desktop application that detects tomato plant diseases from leaf images using 
 - 🖥️ Clean desktop UI built with **Tkinter**
 
 ---
+## 📸 App Walkthrough & Screenshots
+
+Here is a visual guide to how **Dr. Plant** operates, from the initial dashboard to the final diagnosis.
+
+### 1. User Interface & Dashboards
+The application features a clean, intuitive desktop interface designed for both farmers and researchers.
+
+| Home Page | Farmer Education Hub |
+| :---: | :---: |
+| ![Home Page](./Screenshots/Home_Page.png) | ![Education Hub](./Screenshots/Farmer_Education_Hub.png) |
+
+---
+
+### 2. Diagnosis Pipeline
+Users can upload a high-resolution image of a leaf. The app instantly processes it through the 5-layer CNN model.
+
+| Step 1: Photo Uploading | Step 2: Leaf Diagnosis |
+| :---: | :---: |
+| ![Photo Upload Phase](./Screenshots/Photo_Uploading_Phase.png) | ![Leaf Diagnosis Page](./Screenshots/Leaf_Diagnosis_Page.png) |
+
+---
+
+### 3. Model Accuracy & Testing
+The system provides transparency by allowing users to view the underlying training curves and real-time test results.
+
+| Dataset & Learning Curves | Sample Test Result |
+| :---: | :---: |
+| ![Model Learning Curves](./Screenshots/Model_Learning_Curves.png) | ![Test Result](./Test_Screenshots/Test_Result_1.png) |
+
+---
 
 ## 🗂️ Dataset
 
